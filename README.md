@@ -1,5 +1,6 @@
-# Vivant Vintage — Sample Site
-Own-design, highly interactive sample for Vivant Vintage, Boston, by The Mind Curator Studio.
-Concept: THE BASEMENT DIVE — floor switcher (Curated Floor 1 / Bargain Basement), Bin Dive game ($5-$10 finds), draggable + filterable Rack, tricycle-to-warehouse timeline, Journal modals, two-store visit section with real hours (daily 11am-7/8pm, Sundays open) and real phones.
-Live: https://m-arjun-same.github.io/vivant-vintage/
-Facts: 151 Harvard Ave, Allston (617-787-1100) + 332 Newbury St (617-375-0100). Owners Justin Pomerleau + Emily Sawich. Est. 2014.
+# Moonmelt Café — Sample Site
+Own-design, highly interactive sample for Moonmelt Café (an imagined night café), by The Mind Curator Studio.
+Concept: THE MELT DIVE — daypart switcher (Dusk Lounge / Midnight Cellar), Melt Dive game ($6-$12 finds), draggable + filterable Menu, moonlit-cart-to-night-café timeline, Journal modals, two-café visit section with invented hours (daily 4pm-4am / 4pm-2am, Sundays open) and invented 555 phones.
+Live: https://m-arjun-same.github.io/moonmelt-cafe/
+Facts (all invented): 14 Crescent Alley (555-014-2700) + 3 Harbour Steps (555-014-2711), Moonmelt Quarter. Founders Lina Maro + Theo Vale. Est. 2019.
+Images: free Pexels photos.

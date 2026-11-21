@@ -1,127 +1,127 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Vivant Vintage — Boston's Vintage Warehouse | Allston + Newbury St</title>
-<meta name="description" content="Vivant Vintage Boston. 3,500 sq ft Bargain Basement Warehouse in Allston + Newbury St store. Vintage tees, denim, dresses, plus sizes, $5-$10 bins. Open daily 11am-8pm.">
+<title>Moonmelt Café — The Night Café | Crescent Alley + Harbour Moon</title>
+<meta name="description" content="Moonmelt Café. 1,200 sq ft night café on Crescent Alley + Harbour Moon room. Hot brews, cold brews, desserts, sharing boards, $6-$12 cellar specials. Open daily 4pm-4am.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,900;1,9..144,900&family=Archivo:wght@500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script src="vendor/gsap.min.js"></script>
 <script src="vendor/ScrollTrigger.min.js"></script>
 </head><body>
 <header class="top">
-  <a class="logo" href="#top">VIVANT<span>VINTAGE • BOSTON</span></a>
-  <nav><a href="#floors">Floors</a><a href="#bins">Bin Dive</a><a href="#rack">The Rack</a><a href="#story">Story</a><a href="#visit">Visit</a></nav>
-  <a class="call" href="tel:+16177871100">☎ 617-787-1100</a>
+  <a class="logo" href="#top">MOONMELT<span>CAFÉ • NIGHT OWL</span></a>
+  <nav><a href="#floors">Dayparts</a><a href="#bins">Melt Dive</a><a href="#rack">The Menu</a><a href="#story">Story</a><a href="#visit">Visit</a></nav>
+  <a class="call" href="tel:+15550142700">☎ 555-014-2700</a>
 </header>
 
 <main id="top">
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-img"><img src="assets/hero.jpg" alt="Inside Vivant Vintage clothing racks"><div class="hero-shade"></div></div>
-  <div class="tag" id="hangTag"><b>EST. 2014</b><small>FROM A TRICYCLE CART<br>TO A WAREHOUSE</small></div>
+  <div class="hero-img"><img src="assets/hero.jpg" alt="Inside Moonmelt Café at night"><div class="hero-shade"></div></div>
+  <div class="tag" id="hangTag"><b>EST. 2019</b><small>FROM A MOONLIT CART<br>TO A NIGHT CAFÉ</small></div>
   <div class="hero-copy">
-    <p class="kicker">★ 4.6 · 201 GOOGLE REVIEWS &nbsp;•&nbsp; 52K ON INSTAGRAM &nbsp;•&nbsp; OPEN TODAY 11AM–8PM</p>
-    <h1>VIVANT<br><em>VINTAGE</em></h1>
-    <p class="sub">Boston's vintage warehouse. Two floors, two stores, thousands of one-of-one pieces — and a bargain basement where everything is $5–$10.</p>
-    <div class="cta-row"><a class="btn rust" href="#bins">Dive the bins ↓</a><a class="btn outline" href="#visit">Visit a store →</a></div>
+    <p class="kicker">★ 4.9 · 312 NIGHT-OWL REVIEWS &nbsp;•&nbsp; 18K ON INSTAGRAM &nbsp;•&nbsp; OPEN TODAY 4PM–4AM</p>
+    <h1>MOON<br><em>MELT</em></h1>
+    <p class="sub">The city's night café. Two rooms, two moods, hundreds of small plates and slow brews — and a midnight cellar where every special is $6–$12.</p>
+    <div class="cta-row"><a class="btn rust" href="#bins">Dive the specials ↓</a><a class="btn outline" href="#visit">Visit the café →</a></div>
     <div class="stats">
-      <div><strong>3,500</strong><span>sq ft warehouse</span></div>
-      <div><strong>2</strong><span>floors to dig</span></div>
-      <div><strong>2</strong><span>Boston stores</span></div>
-      <div><strong>$5–$10</strong><span>basement bins</span></div>
+      <div><strong>1,200</strong><span>sq ft night café</span></div>
+      <div><strong>2</strong><span>rooms to settle</span></div>
+      <div><strong>2</strong><span>café locations</span></div>
+      <div><strong>$6–$12</strong><span>cellar specials</span></div>
     </div>
   </div>
 </section>
 
 <!-- FLOORS -->
 <section id="floors" class="floors">
-  <div class="head"><p class="kicker dark">151 HARVARD AVE • ALLSTON • OPENED JUNE 27, 2026</p><h2>Pick your floor.<br>Change your hunt.</h2><p>Tap a floor — the whole room changes. This is how the warehouse actually works.</p></div>
+  <div class="head"><p class="kicker dark">14 CRESCENT ALLEY • MOONMELT QUARTER • OPENED JUNE 27, 2023</p><h2>Pick your hour.<br>Change your mood.</h2><p>Tap a daypart — the whole room changes. This is how the night actually works.</p></div>
   <div class="floor-switch" role="tablist">
-    <button class="floor-btn active" data-floor="1">↑ FLOOR 1 — CURATED</button>
-    <button class="floor-btn" data-floor="0">↓ BASEMENT — BARGAIN</button>
+    <button class="floor-btn active" data-floor="1">↑ DAYPART 1 — DUSK LOUNGE</button>
+    <button class="floor-btn" data-floor="0">↓ MIDNIGHT — THE CELLAR</button>
   </div>
   <div class="floor-card" id="floorCard">
-    <img id="floorImg" src="assets/floor1.jpg" alt="Curated vintage racks">
+    <img id="floorImg" src="assets/floor1.jpg" alt="Moonmelt Café dusk lounge">
     <div class="floor-info">
-      <h3 id="floorTitle">Floor 1 — The Curated Racks</h3>
-      <p id="floorText">Hand-picked vintage sorted by era, size and style. Band tees, denim, dresses, workwear — and a real plus-size section, not an afterthought. Fully ADA-accessible floor.</p>
-      <ul id="floorList"><li>✓ Plus sizes, properly racked</li><li>✓ Vintage tees by decade</li><li>✓ ADA-accessible throughout</li></ul>
-      <span class="floor-price" id="floorPrice">Curated picks • new drops weekly</span>
+      <h3 id="floorTitle">Daypart 1 — The Dusk Lounge</h3>
+      <p id="floorText">Golden-hour room for slow starts. Hot brews, fresh bakes and window seats — and a real sharing-board menu, not an afterthought. Fully step-free room.</p>
+      <ul id="floorList"><li>✓ Sharing boards, properly served</li><li>✓ Hot drinks by the hour</li><li>✓ Step-free throughout</li></ul>
+      <span class="floor-price" id="floorPrice">Dusk picks • new bakes daily</span>
     </div>
   </div>
 </section>
 
 <!-- BIN DIVER -->
 <section id="bins" class="bins">
-  <div class="head light"><p class="kicker">THE BARGAIN BASEMENT • 151 HARVARD AVE</p><h2>The Bin Dive</h2><p>Real basement rules: dig, find, keep. Tap each bin to dig — see what you'd pull out for $5–$10.</p></div>
+  <div class="head light"><p class="kicker">THE MIDNIGHT CELLAR • 14 CRESCENT ALLEY</p><h2>The Melt Dive</h2><p>Real cellar rules: tap, taste, keep. Tap each caddy to dig — see what you'd pull out for $6–$12.</p></div>
   <div class="bin-grid">
-    <button class="bin" data-bin="0"><span class="bin-lid">BIN 01</span><strong>TEES</strong><small>Tap to dig →</small><span class="find"></span></button>
-    <button class="bin mustard" data-bin="1"><span class="bin-lid">BIN 02</span><strong>DENIM</strong><small>Tap to dig →</small><span class="find"></span></button>
-    <button class="bin teal" data-bin="2"><span class="bin-lid">BIN 03</span><strong>WILD CARD</strong><small>Tap to dig →</small><span class="find"></span></button>
+    <button class="bin" data-bin="0"><span class="bin-lid">CADDY 01</span><strong>BREWS</strong><small>Tap to dig →</small><span class="find"></span></button>
+    <button class="bin mustard" data-bin="1"><span class="bin-lid">CADDY 02</span><strong>BAKES</strong><small>Tap to dig →</small><span class="find"></span></button>
+    <button class="bin teal" data-bin="2"><span class="bin-lid">CADDY 03</span><strong>WILD CARD</strong><small>Tap to dig →</small><span class="find"></span></button>
   </div>
   <div class="bin-score"><div>Finds: <b id="findCount">0 / 9</b></div><div>Your haul: <b id="haulTotal">$0</b></div><button id="resetBins" class="btn small">Dig again ↺</button></div>
-  <p class="bin-note" id="binNote">3 bins. 9 hidden finds. Every price is a real basement price: $5–$10.</p>
+  <p class="bin-note" id="binNote">3 caddies. 9 hidden finds. Every price is a real cellar price: $6–$12.</p>
 </section>
 
 <!-- RACK -->
 <section id="rack" class="rack-sec">
-  <div class="head"><p class="kicker dark">SHOP THE FEELING — IN STORE</p><h2>The Rack</h2><p>Drag the rack sideways. Filter it like you'd flip hangers in the shop.</p></div>
+  <div class="head"><p class="kicker dark">TASTE THE FEELING — IN THE CAFÉ</p><h2>The Menu</h2><p>Drag the menu sideways. Filter it like you'd flip pages at the counter.</p></div>
   <div class="filters">
-    <button class="chip active" data-filter="all">All</button><button class="chip" data-filter="under10">Under $10</button><button class="chip" data-filter="plus">Plus sizes</button><button class="chip" data-filter="denim">Denim</button><button class="chip" data-filter="tee">Tees</button><button class="chip" data-filter="dress">Dresses</button>
+    <button class="chip active" data-filter="all">All</button><button class="chip" data-filter="under10">Under $12</button><button class="chip" data-filter="plus">Sharing</button><button class="chip" data-filter="denim">Cold</button><button class="chip" data-filter="tee">Hot</button><button class="chip" data-filter="dress">Desserts</button>
   </div>
   <div class="rack" id="rack">
-    <article class="card" data-cat="tee"><img src="assets/tees.jpg" alt="Vintage tees"><h3>Vintage Tees</h3><p>Single-stitch, band & Boston tees</p><b>From $10</b></article>
-    <article class="card" data-cat="denim"><img src="assets/denim.jpg" alt="Vintage denim"><h3>Denim Wall</h3><p>Levi's, workwear & cut-offs</p><b>All sizes</b></article>
-    <article class="card" data-cat="dress plus"><img src="assets/dresses.jpg" alt="Vintage dresses"><h3>Dresses & Sets</h3><p>60s–Y2K, incl. plus sizes</p><b>New weekly</b></article>
-    <article class="card" data-cat="tee under10"><img src="assets/basetees.jpg" alt="Basement tee find"><h3>Basement Tees</h3><p>The $5–$10 bin legends</p><b>$5–$10</b></article>
-    <article class="card" data-cat="plus"><img src="assets/plus.jpg" alt="Plus size vintage rack"><h3>Plus-Size Rack</h3><p>A real section, every era</p><b>For every body</b></article>
-    <article class="card" data-cat="denim under10"><img src="assets/basedenim.jpg" alt="Basement denim"><h3>Basement Denim</h3><p>Dig-first denim deals</p><b>$5–$10</b></article>
+    <article class="card" data-cat="tee"><img src="assets/tees.jpg" alt="Velvet Moon latte"><h3>Velvet Moon Latte</h3><p>Heart-art latte, oat or dairy</p><b>From $8</b></article>
+    <article class="card" data-cat="denim"><img src="assets/denim.jpg" alt="Midnight tonic cold brew"><h3>Midnight Tonic Brew</h3><p>Blue-citrus cold brew over ice</p><b>All night</b></article>
+    <article class="card" data-cat="dress plus"><img src="assets/dresses.jpg" alt="Lunar cheesecake platter"><h3>Lunar Cheesecake</h3><p>Pistachio cheesecake to share</p><b>New nightly</b></article>
+    <article class="card" data-cat="tee under10"><img src="assets/basetees.jpg" alt="Cellar filter coffee pour"><h3>Cellar Filter Coffee</h3><p>The $6–$12 counter legend</p><b>$6–$12</b></article>
+    <article class="card" data-cat="plus"><img src="assets/plus.jpg" alt="Moonmelt sharing board"><h3>Sharing Board</h3><p>Croissants, dips & night bakes</p><b>For every table</b></article>
+    <article class="card" data-cat="denim under10"><img src="assets/basedenim.jpg" alt="Iced Crescent cooler"><h3>Iced Crescent Cooler</h3><p>Whipped iced coffee, cellar price</p><b>$6–$12</b></article>
   </div>
-  <p class="drag-hint">← drag / scroll sideways → &nbsp;•&nbsp; Selling is in-store — come touch the real thing.</p>
+  <p class="drag-hint">← drag / scroll sideways → &nbsp;•&nbsp; Ordering is at the counter — come taste the real thing.</p>
 </section>
 
 <!-- STORY TIMELINE -->
 <section id="story" class="story">
-  <div class="head light"><p class="kicker">JUSTIN POMERLEAU + EMILY SAWICH</p><h2>From a tricycle<br>to a warehouse.</h2></div>
+  <div class="head light"><p class="kicker">LINA MARO + THEO VALE</p><h2>From a moonlit cart<br>to a night café.</h2></div>
   <div class="timeline">
-    <div class="tl"><span>START</span><h3>The Tricycle Cart</h3><p>Justin starts selling vintage from a tricycle cart around Boston.</p></div>
-    <div class="tl"><span>2014</span><h3>The Shop Opens</h3><p>Vivant Vintage becomes a real shop — built piece by piece, rack by rack.</p></div>
-    <div class="tl"><span>NEWBURY</span><h3>332 Newbury St</h3><p>A second home on Boston's most famous shopping street. ☎ 617-375-0100</p></div>
-    <div class="tl"><span>MAY 30, 2026</span><h3>Lower Allston Closes</h3><p>The old store closes to make way for something much bigger.</p></div>
-    <div class="tl hot"><span>JUNE 27, 2026</span><h3>The Warehouse Opens</h3><p>151 Harvard Ave: 3,500 sq ft, 2 floors, bargain basement, 5-year lease. The biggest Vivant yet.</p></div>
+    <div class="tl"><span>START</span><h3>The Moonlit Cart</h3><p>Lina starts pouring filter coffee from a moonlit cart on Crescent Alley.</p></div>
+    <div class="tl"><span>2019</span><h3>The Café Opens</h3><p>Moonmelt becomes a real café — built cup by cup, table by table.</p></div>
+    <div class="tl"><span>HARBOUR</span><h3>Harbour Moon Opens</h3><p>A second home on the harbour steps, under the same moon. ☎ 555-014-2711</p></div>
+    <div class="tl"><span>MAY 30, 2023</span><h3>The Alley Room Closes</h3><p>The old room closes to make way for something much bigger.</p></div>
+    <div class="tl hot"><span>JUNE 27, 2023</span><h3>The Night Café Opens</h3><p>14 Crescent Alley: 1,200 sq ft, 2 rooms, midnight cellar, 5-year lease. The biggest Moonmelt yet.</p></div>
   </div>
   <div class="perks">
-    <div class="perk"><h3>🎓 Student Wednesdays</h3><p>Student discounts every Wednesday — bring your ID.</p></div>
-    <div class="perk"><h3>♿ Accessible for real</h3><p>ADA-accessible floor, confirmed by the community who uses it.</p></div>
-    <div class="perk"><h3>👕 Consignment</h3><p>Got vintage to move? Ask in store about consignment.</p></div>
-    <div class="perk"><h3>🧺 Clothing care</h3><p>From the Journal: how to wash, store and keep vintage alive longer.</p></div>
+    <div class="perk"><h3>🌙 Night-Owl Study</h3><p>Quiet booths and steady refills on study nights — bring your laptop.</p></div>
+    <div class="perk"><h3>♿ Accessible for real</h3><p>Step-free room, confirmed by the community who uses it.</p></div>
+    <div class="perk"><h3>🛋️ Booth Bookings</h3><p>Got a crew to feed? Reserve a booth at the counter.</p></div>
+    <div class="perk"><h3>☕ Bean care</h3><p>From the Journal: how to brew, store and keep beans alive longer.</p></div>
   </div>
 </section>
 
 <!-- JOURNAL -->
 <section class="journal">
-  <div class="head"><p class="kicker dark">FROM THE JOURNAL / STORIES</p><h2>Know your vintage.</h2></div>
+  <div class="head"><p class="kicker dark">FROM THE JOURNAL / STORIES</p><h2>Know your brew.</h2></div>
   <div class="j-grid">
-    <button class="j-card" data-article="tees"><img src="assets/journal-tees.jpg" alt="Vintage t-shirt story"><h3>The Vintage T-Shirt Guide</h3><p>Single-stitch, tags, fades — how to spot the real ones →</p></button>
-    <button class="j-card" data-article="care"><img src="assets/journal-care.jpg" alt="Clothing care story"><h3>Care For Clothes That Last</h3><p>Wash less, store right, repair first →</p></button>
+    <button class="j-card" data-article="tees"><img src="assets/journal-tees.jpg" alt="Espresso guide story"><h3>The Night Brew Guide</h3><p>Crema, timing, temperature — how to spot a proper pour →</p></button>
+    <button class="j-card" data-article="care"><img src="assets/journal-care.jpg" alt="Coffee bean care story"><h3>Care For Beans That Last</h3><p>Grind fresh, store dark, brew slow →</p></button>
   </div>
 </section>
 
 <!-- VISIT -->
 <section id="visit" class="visit">
-  <div class="head"><p class="kicker dark">TWO STORES • OPEN EVERY DAY — SUNDAYS TOO</p><h2>Come dig in person.</h2><p class="correct">Real hours: 11am–7/8pm daily. Not 9–5. Not closed Sundays.</p></div>
+  <div class="head"><p class="kicker dark">TWO CAFÉS • OPEN EVERY NIGHT — SUNDAYS TOO</p><h2>Come sit in person.</h2><p class="correct">Real hours: 4pm–4am daily. Not 9–5. Not closed Sundays.</p></div>
   <div class="stores">
-    <article class="store"><p class="store-tag">THE WAREHOUSE • ALLSTON</p><h3>151 Harvard Ave</h3><p>Allston, Boston, MA 02134<br>3,500 sq ft • 2 floors • Bargain Basement</p><p><b>Open daily 11am–8pm</b></p><div class="store-btns"><a class="btn rust" href="tel:+16177871100">Call 617-787-1100</a><a class="btn darkbtn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Vivant+Vintage+151+Harvard+Ave+Boston+MA+02134">Directions →</a></div></article>
-    <article class="store alt"><p class="store-tag">NEWBURY STREET</p><h3>332 Newbury St</h3><p>Boston, MA 02115<br>Back Bay's vintage stop</p><p><b>Open daily 11am–7pm</b></p><div class="store-btns"><a class="btn rust" href="tel:+16173750100">Call 617-375-0100</a><a class="btn darkbtn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Vivant+Vintage+332+Newbury+St+Boston+MA+02115">Directions →</a></div></article>
+    <article class="store"><p class="store-tag">THE NIGHT CAFÉ • CRESCENT</p><h3>14 Crescent Alley</h3><p>Moonmelt Quarter<br>1,200 sq ft • 2 rooms • Midnight Cellar</p><p><b>Open daily 4pm–4am</b></p><div class="store-btns"><a class="btn rust" href="tel:+15550142700">Call 555-014-2700</a><a class="btn darkbtn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Moonmelt+Cafe+14+Crescent+Alley">Directions →</a></div></article>
+    <article class="store alt"><p class="store-tag">HARBOUR MOON</p><h3>3 Harbour Steps</h3><p>Moonmelt Quarter<br>The harbour's night stop</p><p><b>Open daily 4pm–2am</b></p><div class="store-btns"><a class="btn rust" href="tel:+15550142711">Call 555-014-2711</a><a class="btn darkbtn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Moonmelt+Cafe+3+Harbour+Steps">Directions →</a></div></article>
   </div>
-  <a class="ig-banner" href="https://instagram.com/vivantvintage" target="_blank" rel="noopener">@vivantvintage — 52K following the drops. Justin fronts the reels himself. Follow for first dibs →</a>
+  <a class="ig-banner" href="https://instagram.com/moonmeltcafe.night" target="_blank" rel="noopener">@moonmeltcafe.night — 18K following the night menu. Lina fronts the reels herself. Follow for first sips →</a>
 </section>
 </main>
 
 <footer>
-  <h2>VIVANT VINTAGE</h2>
-  <p>151 Harvard Ave, Allston, Boston, MA 02134 • 617-787-1100<br>332 Newbury St, Boston, MA 02115 • 617-375-0100<br>Open daily 11am–7/8pm • @vivantvintage</p>
-  <small>Sample concept built for Vivant Vintage by The Mind Curator Studio. Product first — pay only after you receive it.</small>
+  <h2>MOONMELT CAFÉ</h2>
+  <p>14 Crescent Alley • 555-014-2700<br>3 Harbour Steps • 555-014-2711<br>Open daily 4pm–4am • @moonmeltcafe.night</p>
+  <small>Sample concept built for Moonmelt Café by The Mind Curator Studio. Product first — pay only after you receive it.</small>
 </footer>
 
 <div class="modal" id="modal" hidden><div class="modal-box"><button id="modalClose">✕</button><h3 id="modalTitle"></h3><p id="modalBody"></p></div></div>
